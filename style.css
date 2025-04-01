@@ -16,7 +16,7 @@
     --font-size--h6: 1.75rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 800px) {
     :root {
         --font-size--h1: 4.125rem;
         --font-size--h2: 3.125rem;
@@ -84,8 +84,6 @@ a:hover {
     justify-content: space-around;
     display: flex;
     list-style: none;
-
-
 }
 
 .primary-nav li{
@@ -98,6 +96,10 @@ a:hover {
 
 }
 
+@media screen and (max-width: 800px) {
+
+
+}
 
 .img-container {
     padding: 20rem 0;
@@ -106,12 +108,25 @@ a:hover {
     justify-content: space-between;
 }
 
+
 .headshot {
 
 }
 
 #typewriter {
     padding-right: 5rem;
-    font-size: var(--font-size--h1);
+    font-size: var(--font-size--h2);
+    white-space: nowrap;
     color: var(--color-porcelain);
+}
+
+@media screen and (max-width: 800px) {
+    .img-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #typewriter {
+        padding-left: 4rem;
+    }
 }
