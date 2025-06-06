@@ -16,7 +16,7 @@ export default function Navbar() {
           >
           {/* Logo */}
           <div className='flex items-center gap-2'>
-            <a href="/"><img src='' alt='Logo' className='h-6 w-6'/></a>
+            <a href="/"><img src='./assets/logo.png' alt='Logo' className='h-6 w-6'/></a>
             <span className='text-white font-bold tracking-wide'></span>
           </div>
 
