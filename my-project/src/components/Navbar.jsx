@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-
 export default function Navbar() {
   return (
   <header className='absolute top-6 left-1/2 z-50 -translate-x-1/2 w-full max-w-5xl px-6'>
@@ -16,7 +15,7 @@ export default function Navbar() {
           >
           {/* Logo */}
           <div className='flex items-center gap-2'>
-            <a href="/"><img src='./assets/logo.png' alt='Logo' className='h-6 w-6'/></a>
+            <a href="/"><img src='/logo.png' alt='Logo' className='h-10 w-auto'/></a>
             <span className='text-white font-bold tracking-wide'></span>
           </div>
 

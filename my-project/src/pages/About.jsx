@@ -51,8 +51,24 @@ export default function AboutSection() {
             className='w-72 h-72 object-cover rounded-2xl shadow-lg border border-white/20'
           />
         </motion.div>
-        
 
+        <motion.div
+          variants={fadeUp}
+          className='mt-10 flex items-center justify-center gap-x-6'
+        >
+          <a
+            href='/Projects'
+            className='rounded-md bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-indigo-400 transition'
+          >
+            View Projects
+          </a>
+          <a
+            href='/contact'
+            className='text-sm font-semibold text-indigo-300 hover:underline'
+          >
+            Contact Me →
+          </a>
+        </motion.div>
       </div>
     </section>
   );
